@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
 
 const pageTitle = "Blog | FantasyFragments.net";
 ---
@@ -20,9 +22,7 @@ const pageTitle = "Blog | FantasyFragments.net";
         </style>
 	</head>
 	<body>
-		<a href="/">Home</a>
-        <a href="/about/">About</a>
-		<a href="/blog/">Blog</a>
+		<Navigation />
 		<h1>{pageTitle}</h1>
         <p>This is where new blog posts will go.</p>
         <ul>
@@ -30,5 +30,6 @@ const pageTitle = "Blog | FantasyFragments.net";
             <li><a href="/posts/post-2/">Post 2</a></li>
             <li><a href="/posts/post-3/">Post 3</a></li>
         </ul>
+        <Footer />
 	</body>
 </html>

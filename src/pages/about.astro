@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
 
 const pageTitle = "About | FantasyFragments.net";
 
@@ -11,7 +13,7 @@ const identity = {
 };
 
 // Font style variables (about)
-const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
+const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "C++", "Turning it off and on again"];
 const skillColor = "navy";
 const fontWeight = "bold";
 const textCase = "uppercase";
@@ -38,9 +40,7 @@ const textCase = "uppercase";
         </style>
 	</head>
 	<body>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/blog/">Blog</a>
+        <Navigation />
 		<h1>{pageTitle}</h1>
         <h2>In the near future, this will be a personal blog focusing on technology, linguistics and Touhou project. This site was created using Astro!</h2>
         
@@ -57,5 +57,6 @@ const textCase = "uppercase";
         <ul>
          {skills.map((skill) => <li class="skill">{skill}</li>)}
         </ul>
+        <Footer />
 	</body>
 </html>
