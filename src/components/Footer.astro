@@ -1,8 +1,18 @@
 ---
-const platform = "github";
-const username = "mosgo";
+const {platform, username } = Astro.props;
+import Social from './Social.astro';
 ---
 
 <footer>
-  <p>Check out more on <a href={`https://www.${platform}.com/${username}`}>GitHub</a>!</p>
+  <Social platform="twitter" username="mosgo99" />
+  <Social platform="github" username="mosgo" />
+  <Social platform="youtube" username="channel/UC8tDWB1qW-PWPW-FX8wf0Ww" />
 </footer>
+
+<style>
+    footer {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
