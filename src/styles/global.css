@@ -1,5 +1,5 @@
 html {
-  background-color: #f1f5f9;
+  background-color: #fafafa;
   font-family: sans-serif;
 }
 
@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   font-size: 2.5rem;
 }
 
@@ -55,7 +55,7 @@ h1 {
     display: block;
     position: static;
     width: auto;
-    background: none;
+    background: indigo;
   }
 
   .nav-links a {

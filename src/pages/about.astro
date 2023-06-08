@@ -1,7 +1,5 @@
 ---
-import '../styles/global.css';
-import Navigation from '../components/Navigation.astro';
-import Footer from '../components/Footer.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
 
 const pageTitle = "About | FantasyFragments.net";
 
@@ -40,7 +38,7 @@ const textCase = "uppercase";
         </style>
 	</head>
 	<body>
-        <Navigation />
+        <BaseLayout>
 		<h1>{pageTitle}</h1>
         <h2>In the near future, this will be a personal blog focusing on technology, linguistics and Touhou project. This site was created using Astro!</h2>
         
@@ -57,7 +55,7 @@ const textCase = "uppercase";
         <ul>
          {skills.map((skill) => <li class="skill">{skill}</li>)}
         </ul>
-        <Footer />
+        <BaseLayout />
         <script>
             import "../scripts/menu.js";
         </script>
