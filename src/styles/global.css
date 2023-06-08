@@ -51,7 +51,7 @@ h1 {
 
 @media screen and (min-width: 636px) {
   .nav-links {
-    margin-left: 5em;
+    margin-left: 0em;
     display: block;
     position: static;
     width: auto;
@@ -59,7 +59,7 @@ h1 {
   }
 
   .nav-links a {
-    display: inline-block;
+    display: inline;
     padding: 15px 20px;
   }
 
