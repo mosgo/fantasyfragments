@@ -2,14 +2,12 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const pageTitle = "About | FantasyFragments.net";
-
 const identity = {
     firstName: "Lyndon",
     country: "United Kingdom",
     occupation: "Student",
     hobbies: ["touhou", "computers", "books", "photography"],
 };
-
 // Font style variables (about)
 const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "C++", "Turning it off and on again"];
 const skillColor = "navy";
@@ -19,11 +17,6 @@ const textCase = "uppercase";
 
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/aya.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
         <style define:vars={{skillColor, fontWeight, textCase}}>
             h1 {
                 color: Gray;
@@ -55,7 +48,7 @@ const textCase = "uppercase";
         <ul>
          {skills.map((skill) => <li class="skill">{skill}</li>)}
         </ul>
-        <BaseLayout />
+    </BaseLayout>
         <script>
             import "../scripts/menu.js";
         </script>

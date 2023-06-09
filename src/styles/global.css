@@ -55,7 +55,7 @@ h1 {
     display: block;
     position: static;
     width: auto;
-    background: indigo;
+    background: #fafafa;
   }
 
   .nav-links a {

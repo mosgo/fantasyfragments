@@ -1,13 +1,15 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'First Post'
 pubDate: 2023-06-06
 description: 'Sample blog post.'
 author: 'Lyndon Saffery'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png' 
-    alt: 'The full Astro logo.'
+    url: 'https://cdn.donmai.us/original/2e/91/__hakurei_reimu_kirisame_marisa_alice_margatroid_and_shameimaru_aya_touhou_drawn_by_dahuang__2e91d61b9803ffc3cb08fde03590530e.jpg' 
+    alt: 'A very stressed bird.'
 tags: ["astro", "blogging", "learning in public"]
 ---
+
 # My First Blog Post
 
 Published on: 2023-06-06
