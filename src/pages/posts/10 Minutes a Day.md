@@ -18,4 +18,4 @@ So, I came up with this idea: everyday, try to spend 10 minutes a day ticking of
 
 In a way, this methodology could be extended to just about anything in your life. Every great positive thing in your life was made with small positive steps, and vice versa. Let's keep moving in a more positive direction. 
 
-After spending roughly 10 minutes a day doing small things such as organising, sorting out cables, scrubbing down surfaces etc. Things are looking a lot cleaner and I totally recommend it!
+After spending roughly 10 minutes a day doing small things such as organising, sorting out cables, scrubbing down surfaces etc. Things are looking a lot cleaner and I totally recommend it! :slight_smile:
