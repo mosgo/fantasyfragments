@@ -28,10 +28,21 @@ const textCase = "uppercase";
                 font-weight: var(--fontWeight);
                 text-transform: var(--textCase);
             }
+            
         </style>
 	</head>
 	<body>
         <BaseLayout>
+            <style>
+                .BaseLayout {
+                border-radius: 15px 15px 15px 15px;
+                    background: #CDCDCD;
+                    padding: 20px;
+                    width: inline-block;
+                    height: inline-block;
+                    word-wrap: break-word;
+                }
+            </style>
 		<h1>{pageTitle}</h1>
         <h2>In the near future, this will be a personal blog focusing on technology, linguistics and Touhou project. This site was created using Astro!</h2>
         
@@ -43,7 +54,7 @@ const textCase = "uppercase";
                 <li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}.</li>
             } 
         </ul>
-
+        
         <p>My skills are:</p>
         <ul>
          {skills.map((skill) => <li class="skill">{skill}</li>)}

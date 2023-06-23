@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const allPosts = await Astro.glob('../pages/pictures/*.md');
+import BlogPost from '../components/BlogPost.astro';
+const pageTitle = "Pictures | FantasyFragments.net";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/aya.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{pageTitle}</title>
+        <style>
+            h1 {
+                color: Black;
+                font-size: 4rem;
+                font-weight: bold;
+            }
+        </style>
+	</head>
+	<body>
+	<BaseLayout>
+		<h1>{pageTitle}</h1>
+        <p>Temporary page. Images will go here.</p>
+        <ul>
+            {allPosts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
+        </ul>
+    </BaseLayout>
+	</body>
+</html>
