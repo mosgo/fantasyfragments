@@ -20,6 +20,15 @@ h1 {
   font-size: 2.5rem;
 }
 
+html.dark {
+  background-color: #424952 ;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+
 /* nav styles */
 
 .nav-links {

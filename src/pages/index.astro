@@ -1,7 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Greeting from '../components/Greeting.jsx';
 const pageTitle = "Home Page | FantasyFragments";
 ---
 <BaseLayout pageTitle={pageTitle}>
-  <h2>Welcome to FantasyFragments.net!</h2>
+  <Greeting client:load messages={["Hi", "Hello", "Hallo", "Hey!"]} />
 </BaseLayout>
