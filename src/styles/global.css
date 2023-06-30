@@ -21,14 +21,27 @@ h1 {
 }
 
 html.dark {
-  background-color: #424952 ;
+  background-color: #424952;
   color: #fff;
 }
 
 .dark .nav-links a {
   color: #fff;
+  background: #424952;
 }
 
+.footer.dark{
+  footer {
+    display: flex;
+    gap: 1rem;
+    border-radius: 15px 15px 15px 15px;
+    background: #3d3d3d;
+    padding: 20px;
+    width: inline-block;
+    height: inline-block;
+    justify-content: center;
+  }
+}
 /* nav styles */
 
 .nav-links {
@@ -56,6 +69,19 @@ html.dark {
 
 .expanded {
   display: unset;
+}
+
+.footer {
+  footer {
+    display: flex;
+    gap: 1rem;
+    border-radius: 15px 15px 15px 15px;
+    background: #CDCDCD;
+    padding: 20px;
+    width: inline-block;
+    height: inline-block;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 636px) {
