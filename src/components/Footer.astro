@@ -3,7 +3,15 @@ const {platform, username } = Astro.props;
 import Social from './Social.astro';
 ---
 
-<footer>
+<img id="borderimg" 
+      src="https://cdn.discordapp.com/attachments/898323590334799912/1130844714673913906/border.png" 
+      alt="[MISSING]" 
+      style="transform:rotate(180deg)"
+      width="25"
+      height="25"
+      align="right" />
+
+<footer style="margin-top: 80px";>
   <Social platform="twitter" username="mosgo99" />
   <Social platform="github" username="mosgo" />
   <Social platform="youtube" username="channel/UC8tDWB1qW-PWPW-FX8wf0Ww" />

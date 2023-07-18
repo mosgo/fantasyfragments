@@ -2,18 +2,14 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const pageTitle = "About | FantasyFragments.net";
-const identity = {
-    firstName: "Lyndon",
-    country: "United Kingdom",
-    occupation: "Student",
-    hobbies: ["touhou", "computers", "books", "photography"],
-};
+
 // Font style variables (about)
-const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "C++", "Turning it off and on again"];
 const skillColor = "navy";
 const fontWeight = "bold";
 const textCase = "uppercase";
 ---
+
+<link rel="icon" type="image/svg+xml" href="/aya.svg" />
 
 <html lang="en">
 	<head>
@@ -48,17 +44,14 @@ const textCase = "uppercase";
         
         <p>Here are some sample facts.</p>
         <ul>
-            <li> My name is {identity.firstName}.</li>
-            <li> I live in {identity.country} and I am currently a {identity.occupation}.</li>
-            {identity.hobbies.length >= 2 && 
-                <li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}.</li>
-            } 
+            <li>Did you know that CD sales actually increased by 4% in 2022?</li>
         </ul>
         
-        <p>My skills are:</p>
+        <p>References</p>
         <ul>
-         {skills.map((skill) => <li class="skill">{skill}</li>)}
+            <li>Snider, M. and Padilla, R. (2023) 'The CD turns 40: Inside the meteoric rise and fall of the shiny disc that changed music', USA Today (International), 18 March, Available at: eu.usatoday.com (Accessed: 18 July 2023).</li>
         </ul>
+        
     </BaseLayout>
         <script>
             import "../scripts/menu.js";

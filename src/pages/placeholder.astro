@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 const allPosts = await Astro.glob('../pages/pictures/*.md');
 import BlogPost from '../components/BlogPost.astro';
-const pageTitle = "Pictures | FantasyFragments.net";
+const pageTitle = "Resources | FantasyFragments.net";
 ---
 
 <html lang="en">
@@ -23,7 +23,7 @@ const pageTitle = "Pictures | FantasyFragments.net";
 	<body>
 	<BaseLayout>
 		<h1>{pageTitle}</h1>
-        <p>PLACEHOLDER!!!!!.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <img src="https://cdn.donmai.us/original/67/03/__hakurei_reimu_and_ibuki_suika_touhou_drawn_by_yanagi_nurikoboshi__6703bd6fb1adbc42567627db3ddcedc0.jpg" alt="reimu and suika at the shrine donation box">
         <ul>
             {allPosts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
