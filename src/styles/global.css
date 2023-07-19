@@ -20,6 +20,7 @@ h1 {
   font-size: 2.5rem;
 }
 
+
 html.dark {
   background-color: #424952;
   color: #fff;
@@ -29,6 +30,33 @@ html.dark {
   color: #fff;
   background: #424952;
 }
+
+.dark div.nav-links {
+  color: #424952;
+  background-color: #424952;
+}
+
+/* Temporary dark mode bug fix. Replace later. */
+.dark h1.astro-IJNERLR2 {
+  color: #fff;
+}
+
+.dark h1.astro-37FXCHFA {
+  color: #fff;
+}
+
+.dark h1.astro-KH7BTL4R {
+  color: #fff;
+}
+
+.dark h1.astro-I6NO4WWR {
+  color: #fff;
+}
+
+.dark h1.astro-IH7G3VJE {
+  color: #fff;
+}
+/* */
 
 .footer.dark{
   footer {
