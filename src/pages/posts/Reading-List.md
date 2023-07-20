@@ -45,6 +45,7 @@ This is my personal list of books that I own either digitally or physically. I h
 
 # Philosophy
 * Baudrillard, Jean - _Simulacra & Simulation_
+* Cain, Susan - Quiet: The Power of Introverts in a World That Can't Stop Talking
 * Decartes, Rene - _Discourse on the Method_
 * Feyerabend, Paul - _Against Method: Outline of an Anarchistic Theory of Knowledge_
 
