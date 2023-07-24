@@ -11,4 +11,4 @@ image:
 tags: ["music", "touhou", "japan", "world"]
 ---
 
-Sample
+Sample text
