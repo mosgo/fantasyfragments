@@ -1,14 +1,17 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Greeting from '../components/Greeting.jsx';
-const pageTitle = "Home Page | FantasyFragments";
+const pageTitle = "Home | FantasyFragments";
 ---
 <BaseLayout pageTitle={pageTitle}>
   <Greeting client:load messages={["Hi", "Hello", "Hallo", "Hey!", "こんにちは!", "Hallo!"]} />
 
   <html>
     <head>
-      <p> <i>I am currently aware of the issues viewing this site on mobile. Please wait warmly for updates! For now, have fun with this little button.</i></p>
+      <h1>Updates</h1>
+      <ul>
+        <li>Mobile menus and dark mode should be fixed.</li>
+      </ul>
     </head>
   </html>
 </BaseLayout>
