@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Greeting from '../components/Greeting.jsx';
-const pageTitle = "Home | FantasyFragments";
+const pageTitle = "Home";
 ---
 <BaseLayout pageTitle={pageTitle}>
   <Greeting client:load messages={["Hi", "Hello", "Hallo", "Hey!", "こんにちは!", "Hallo!"]} />
